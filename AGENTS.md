@@ -1,3 +1,5 @@
+> **UNIIMENTE work in this fork:** Before new or resumed work, read [the founder Discussion](https://github.com/dababiyoda/uniimente-kernel/discussions/89), [the pinned collaboration SOP](https://github.com/dababiyoda/uniimente-kernel/blob/2ccbbe2bf553df45df3dac777dc45f825760dd45/docs/collaboration/START_HERE.md), and [live work claims/handoffs](https://github.com/dababiyoda/uniimente-kernel/issues/96). Inspect relevant open PRs and exact heads, identify your actual session and bounded files/interfaces, and acknowledge overlaps before editing. Preserve the local instructions below. This addition governs Alfonso's UNIIMENTE work in this fork; do not send this fork-specific rollout upstream. The source package is draft #193 pending adoption; metadata checks are not locks or authority.
+
 # AGENTS.md
 
 This file provides guidance to AI coding agents (Claude Code, Cursor, Copilot, Antigravity, etc.) when working with code in this repository.
@@ -90,3 +92,4 @@ See [docs/agents.md](docs/agents.md) for the decision matrix and [references/orc
 Skills in this repo are markdown-first: each lives at `skills/<kebab-case-name>/SKILL.md` with YAML frontmatter (`name`, `description`) and follows the section anatomy (Overview, When to Use, Process, Common Rationalizations, Red Flags, Verification). Add a `scripts/` directory only when the skill ships runnable helpers; most skills are markdown only, and there are no per-skill zip packages.
 
 For the full format, naming conventions, frontmatter rules, supporting-file thresholds, and writing principles, see [docs/skill-anatomy.md](docs/skill-anatomy.md), the single source of truth for skill structure. Do not restate that guidance here, link to it.
+
